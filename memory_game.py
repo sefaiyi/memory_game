@@ -31,6 +31,8 @@ def acbe(a):
                     hafiza.clear()
                     if bilinen == 8:
                         messagebox.showinfo("Memory Game", "Congratulations You're done!")
+                        pencere.destroy()
+
                 else:
                     ikinci_buton.after(100, lambda x=i[2]: acbunu(x))
 
